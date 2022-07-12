@@ -1,5 +1,5 @@
-Problem: Write a NumPy program to test whether none of the elements of a given array is zero.
+Problem: Write a NumPy program to test whether any of the elements of a given array is non-zero.
 
 Example: 
-[1,2,3,4] => yes
-[0,1,2,3] => no
+[0,0,0,0] => false
+[0,0,0,1] => true
