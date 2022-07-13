@@ -2,6 +2,6 @@ Problem: Write a NumPy program to test a given array element-wise for finiteness
 
 Example:
 
-[1,2,3,4] => True
+[1,2,3,4] => [True, True, True, True]
 
-[1, 2, NaN, Inf] => False
+[1, 2, NaN, Inf] => [True, True, False, False]
